@@ -11,18 +11,18 @@ public class CalculatingTheTime
 		System.out.println("Time taken--->"+(System.currentTimeMillis()-now)+
 				                                                  "in msecond");
 	}
-//	public int findSum(int n)
-//	{
-//		return n*(n+1)/2;
-//	}
 	public int findSum(int n)
 	{
-		int i,sum=0;
-		for(i=1;i<=n;i++)
-		{
-			sum=sum+i;	
-		}
-		return sum;
+		return n*(n+1)/2;
 	}
+//	public int findSum(int n)
+//	{
+//		int i,sum=0;
+//		for(i=1;i<=n;i++)
+//		{
+//			sum=sum+i;	
+//		}
+//		return sum;
+//	}
 	
 }
